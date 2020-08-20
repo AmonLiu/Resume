@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: "Microsoft YaHei", serif;
+    box-sizing: border-box;
+}
+.container{
+    /*position: absolute;*/
+    width: 820px;
+    margin:0 auto;
+    /*top:50%;*/
+    /*left:50%;*/
+    /*transform: translate(-50%,-50%);*/
+}
+
+.header{
+    margin-top:100px;
+    height: 160px;
+    padding: 20px 40px 0 40px;
+    text-align: center;
+    border-top: 3px solid #6b6b7d;
+    box-shadow: 0 -6px 0 #425268;
+    display: flex;
+    justify-content: space-between;
+}
+.header .intro{
+    margin-top: 20px;
+}
+.header .name {
+    font-size: 24px;
+    color:#425268;
+    font-weight: 900;
+}
+.header .job{
+    display: block;
+    font-size: 16px;
+    color: #425268;
+    font-weight: 500;
+    bottom: 20px;
+    margin-top:30px;
+}
+.header .avatar{
+    width:90px;
+    height: 120px;
+}
+.header .contact p{
+    margin-top: 20px;
+    text-align: left;
+}
+.header .contact p i{
+    color: #425268;
+    font-size: 18px;
+}
+.header .contact p span{
+    margin-left: 15px;
+}
+.header .contact p:first-child{
+    margin-bottom: 15px;
+}
+
+.content{
+    position: relative;
+    margin: 0 30px;
+}
+
+.top{
+    position: relative;
+}
+.top i{
+    float: left;
+    display: inline-block;
+    color: #425268;
+    font-size: 32px;
+}
+
+.top span{
+    float:right;
+    display: inline-block;
+    width: 710px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #425268;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom:2px solid #425268;
+}
+.top::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.content .summary{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.content .summary span{
+    color: #425268;
+    font-size: 14px;
+    font-weight: 600;
+}
+.project span{
+    font-size: 20px;
+    color: #425268;
+    margin-left: 20px;
+    /*font-size: 14px;*/
+    font-weight: 600;
+}
+ul{
+    margin:15px 10px;
+}
+li{
+    margin: 5px 0;
+    list-style-type: none;
+    padding-left: 30px;
+
+}
+li span{
+    font-weight: 900;
+}
+li:before{
+    display: inline-block;
+    content:'\25C6';
+    color:#425268;
+    margin-left: -30px;
+    width: 30px;
+    text-align: center;
+    transform: scale(1.3);
+
+}
+.content .list{
+    margin: 0 10px 15px 10px;
+}

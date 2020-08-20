@@ -1,0 +1,65 @@
+{
+  "id": "2008859",
+  "name": "简历",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1831249",
+      "name": "地点",
+      "font_class": "didian",
+      "unicode": "e716",
+      "unicode_decimal": 59158
+    },
+    {
+      "icon_id": "12851119",
+      "name": "电  话",
+      "font_class": "dianhua",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "13257716",
+      "name": "教育",
+      "font_class": "jiaoyu",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "1241829",
+      "name": "技术",
+      "font_class": "jishu",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "2327369",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "6035186",
+      "name": "自我评价",
+      "font_class": "ziwopingjia",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "7711655",
+      "name": "项目",
+      "font_class": "zzd",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10404258",
+      "name": "个人信息",
+      "font_class": "gerenxinxi",
+      "unicode": "e95a",
+      "unicode_decimal": 59738
+    }
+  ]
+}
